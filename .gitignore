@@ -1,0 +1,35 @@
+# Key files (never commit these!)
+*.pem
+*.key
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test files
+test_*.png
+test_*.bmp
+test_secret_*
+
+# Output images
+*_hidden.*
+*_extracted.*
